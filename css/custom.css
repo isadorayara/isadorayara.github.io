@@ -41,6 +41,11 @@ a {
     text-decoration: none !important;
 }
 
+/* Disable dark mode entirely */
+:root {
+  color-scheme: light;
+}
+
 /* Centered image block */
 .center-image-wrapper {
     display: flex;
