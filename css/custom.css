@@ -36,24 +36,24 @@
     url("https://db.onlinewebfonts.com/t/2aea0ac500c896188f9ad191c231029c.svg#Orpheus Pro")format("svg");
 }
 
-/* Disable dark mode entirely */
 
-/* HARD STOP to browser font manipulation */
+
+/* keeping light mode */
 html, body {
   background-color: #fffff8;
   
 
-  /* Kill fake bolding & synthesis */
+  /* same */
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* Prevent Chrome text re-weighting */
+  /* no crazy bold text */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
-/* Completely neutralize Tufte link styling */
+/* not sure */
 /* a {
   font-family: inherit !important;
   font-weight: normal !important;
@@ -73,7 +73,7 @@ a {
   text-decoration-thickness: from-font;
 }
 
-/* Header + navigation links */
+/* still light mode */
 .site-title a,
 .site-nav a,
 .center-links a {
@@ -88,7 +88,7 @@ a {
 strong, b {
   font-weight: 600;
 }
-/* Centered image block */
+/* image home */
 .center-image-wrapper {
     display: flex;
     flex-direction: column;
@@ -104,7 +104,7 @@ strong, b {
     margin-bottom: 2rem;
 }
 
-/* Minimal link cluster near image */
+/* home links */
 .image-links {
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ strong, b {
     text-decoration: underline;
 }
 
-/* Top navigation */
+/* nav menu */
 
 title 
 nav {
@@ -148,7 +148,7 @@ nav a:hover {
     padding: 2rem;
 }
 
-/* Title stays left */
+/* name */
 .site-title {
     grid-column: 2;
     display: flex;
@@ -163,7 +163,7 @@ nav a:hover {
     background: none !important;
 }
 
-/* Nav stays centered */
+/* nav menu place */
 .site-nav {
     grid-column: 2;
     display: flex;
@@ -171,12 +171,12 @@ nav a:hover {
     gap: 2.8rem;
 }
 
-/* Increase nav size */
+/* nav menu size */
 .site-nav a {
     font-size: 1.5rem;
 }
 
-/* Header layout */
+/* hm */
 /*
 .site-header {
     display: flex;
@@ -209,7 +209,7 @@ nav a:hover {
     color: black;
 } 
 /*
-/* Main wrapper for homepage */
+/* homepage */
 .center-wrapper {
     display: flex;
     align-items: center;
@@ -219,16 +219,16 @@ nav a:hover {
     position: relative;
 }
 
-/* Image slightly offset to the right */
+/* image place */
 .center-image {
     max-width: 380px;
     height: auto;
-    margin-left: 60px; /* shifts the image to the right */
+    margin-left: 60px; /* margin */
 }
 
-/* Links cluster close to the image, slightly left */
+/* links */
 .center-links {
-    margin-right: 40px;  /* shifts the links to the left */
+    margin-right: 40px;  /* a bit more left */
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
@@ -247,7 +247,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Top navigation */
+/* nav */
 nav {
     display: flex;
     justify-content: center;
@@ -298,11 +298,11 @@ nav a:hover {
     position: right;
 }
 
-/* Force light mode, ignore system dark mode */
 
 
 
-/* Responsive adjustments */
+
+/* responsive */
 @media (max-width: 750px) {
 
     .center-wrapper {
