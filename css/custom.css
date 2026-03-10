@@ -343,7 +343,41 @@ nav a:hover {
 }
 
 
+.newsletter-text{
+  font-family: "Adobe Garamond Pro Italic", serif;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
 
+.newsletter-form{
+  display:flex;
+  justify-content:center;
+  gap:0.8rem;
+  margin-bottom:2rem;
+}
+
+.newsletter-form input{
+  font-family: "Adobe Garamond Pro Italic", serif;
+  font-size:1rem;
+  padding:8px 12px;
+  border:1px solid #bbb;
+  background:transparent;
+  width:220px;
+}
+
+.newsletter-form button{
+  font-family:"Adobe Garamond Pro Italic", serif;
+  font-size:0.95rem;
+  padding:8px 14px;
+  border:1px solid #222;
+  background:transparent;
+  cursor:pointer;
+}
+
+.newsletter-form button:hover{
+  background:#222;
+  color:white;
+}
 
 
 /* responsive */
