@@ -538,3 +538,49 @@ BOOKING FORM
     font-synthesis: none !important;
   }
 }
+
+
+/* ===============================
+FORCE BUTTON STYLE OVER TUFTE
+=============================== */
+
+a.minimal-button,
+a.minimal-button:link,
+a.minimal-button:visited {
+
+  font-family: "Adobe Garamond Pro Italic", serif;
+  font-size: 1.45rem;   /* BIGGER BUTTON */
+
+  padding: 12px 22px;
+
+  border: 1px solid #222;
+  background: transparent;
+
+  color: #222 !important;
+
+  text-decoration: none !important;
+  background-image: none !important;
+  text-shadow: none !important;
+
+  display: inline-block;
+  cursor: pointer;
+
+  font-weight: 400 !important;
+}
+
+/* kill tufte underline */
+a.minimal-button::after {
+  content: none !important;
+  display: none !important;
+}
+
+a.minimal-button:hover {
+  background: #222;
+  color: #fff !important;
+}
+
+a.minimal-button:focus,
+a.minimal-button:active {
+  outline: none;
+  color: #fff !important;
+}
