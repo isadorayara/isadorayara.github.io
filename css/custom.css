@@ -585,7 +585,22 @@ BOOKING FORM
     }
 
     .album-block {
-    flex-direction: column;
+        flex-direction: column;
+    }
+
+    .album-info {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .album-image img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .album-info iframe {
+        width: 100%;
+        max-width: 100%;
     }
 
     .center-image {
