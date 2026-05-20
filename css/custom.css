@@ -619,6 +619,17 @@ BOOKING FORM
 
 }
 
+/* @media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #ffffff !important;
+    color: #111 !important;
+  }
+
+  * {
+    font-synthesis: none !important;
+  }
+} */
+
 @media (prefers-color-scheme: dark) {
   html, body {
     background-color: #ffffff !important;
@@ -627,6 +638,20 @@ BOOKING FORM
 
   * {
     font-synthesis: none !important;
+  }
+
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #333 !important;
+    font-weight: 400 !important;
+    text-shadow: none !important;
+    -webkit-text-fill-color: #333 !important;
+  }
+
+  a::after {
+    opacity: 0.25 !important;
   }
 }
 
