@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-
+/* 
 @font-face {
   font-family: "et-book";
   src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -65,80 +65,77 @@
     font-style: normal;
     font-weight: normal;
     src: local('Adobe Garamond Pro Bold Italic'), url('AGaramondPro-BoldItalic.woff') format('woff');
-    }
+    } */
 
 
 /* keeping light mode */
 html, body {
   background-color: #ffffff;
-  
 
-  /* same */
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* no crazy bold text */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-h1, h2, h3 {
-  font-weight: normal !important;
-}
-h1 {
-  font-family: "Adobe Garamond Pro Italic", serif;
-  letter-spacing: 0.02em;
-}
-/* not sure */
-/* a {
-  font-family: inherit !important;
-  font-weight: normal !important;
-  font-style: normal !important;
-  background-image: none !important;
-  text-shadow: none !important;
-  text-decoration-line: underline;
-} */
+
+
+/* ALL NORMAL TEXT */
 
 body {
-  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+  font-weight: 100;
+  font-size: 0.5rem;
+  line-height: 1.7;
 }
 
+
+/* TITLES */
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100 !important;
+  font-style: normal;
+}
+
+h1 {
+  letter-spacing: 0.02em;
+}
+
+
+/* NORMAL LINKS */
+
 a {
-  font-weight: 400 !important;
+  font-family: "Inconsolata", monospace;
+  font-weight: 200 !important;
   font-style: normal;
   text-decoration-thickness: from-font;
 }
 
-/* section {
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-} */
 
-body {
-  font-family: "Adobe Garamond Pro Regular", serif;
-  font-size: 1.2rem;
-  line-height: 1.7;
-}
+/* SITE TITLE + NAV + SPECIAL HOME LINKS */
 
-/* still light mode */
 .site-title a,
 .site-nav a,
 .center-links a {
-  font-family: "Orpheus Pro", serif;
-  font-weight: 400 !important;
-  letter-spacing: 0.01em;
-  font-weight: normal !important;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100 !important;
+  letter-spacing: 0em;
   font-style: normal !important;
   text-shadow: none !important;
 }
 
-strong, b {
-  font-weight: 600;
-}
 
+/* if you use strong / b */
+
+strong,
+b {
+  font-family: "Inconsolata", monospace;
+  font-weight: 200;
+}
 
 .home-intro {
 
@@ -146,16 +143,18 @@ strong, b {
   margin-left: auto;         
   margin-right: 14vw;         
 
-  margin-top: 0rem;
+  margin-top: -4rem;
   margin-bottom: 0rem;
 
   text-align: right;
 }
 
 .home-intro p {
-  font-family: "Adobe Garamond Pro Italic", serif;
-  font-size: 1.25rem;
-  line-height: 1.6;
+  font-family: "Inconsolata", monospace;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.4;
   margin: 0;
 }
 /* image home */
@@ -241,7 +240,7 @@ nav {
 
 nav a {
     
-    font-size: 2rem;
+    font-size: 1rem;
     color: #555;
     text-decoration: none;
 }
@@ -254,24 +253,29 @@ nav a:hover {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
-    padding: 2rem;
+    padding: 5rem;
 }
 
 /* name */
 .site-title {
     grid-column: 2;
     display: flex;
-    font-family: "Orpheus Pro";
-    font-size: 2.5rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.8rem;
     text-decoration: none;
     color: black;
     grid-column: 1;
 }
+
 .site-title a {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200 !important;
+    font-style: normal !important;
     text-decoration: none !important;
     background: none !important;
 }
-
 /* nav menu place */
 .site-nav {
     grid-column: 2;
@@ -282,7 +286,7 @@ nav a:hover {
 
 /* nav menu size */
 .site-nav a {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /* hm */
@@ -346,8 +350,10 @@ nav a:hover {
 }
 
 .center-links a {
-    font-family: "Orpheus Pro";
-    font-size: 1.8rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 100 !important;
+    font-style: normal;
+    font-size: 1rem;
     line-height: 1.5;
     color: #333;
 }
@@ -421,7 +427,7 @@ nav a:hover {
 .minimal-button:link,
 .minimal-button:visited {
 
-  font-family: "Adobe Garamond Pro Italic", serif;
+  font-family: "Inconsolata", monospace;
   font-size: 1.3rem;
 
   padding: 10px 18px;
@@ -434,7 +440,8 @@ nav a:hover {
   background-image: none !important;
   text-shadow: none !important;
 
-  font-weight: 400 !important;
+  font-weight: 200 !important;
+  font-style: normal;
 
   display: inline-block;
   cursor: pointer;
@@ -477,7 +484,7 @@ BOOKING FORM
   margin-top: 1.6rem;
   margin-bottom: 0.3rem;
 
-  font-family: "Adobe Garamond Pro Regular", serif;
+  font-family: "Inconsolata", monospace;
   font-size: 1.2rem;
 }
 
@@ -488,7 +495,7 @@ BOOKING FORM
 
   padding: 10px 14px;
 
-  font-family: "Adobe Garamond Pro Regular", serif;
+  font-family: "Inconsolata", monospace;
   font-size: 1.2rem;
 
   border: 1px solid #bbb;
@@ -521,7 +528,7 @@ BOOKING FORM
 
 
 .newsletter-text{
-  font-family: "Adobe Garamond Pro Italic", serif;
+  font-family: "Inconsolata", monospace;
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
@@ -534,7 +541,7 @@ BOOKING FORM
 }
 
 .newsletter-form input{
-  font-family: "Adobe Garamond Pro Italic", serif;
+  font-family: "Inconsolata", monospace;
   font-size:1.3rem;
   padding:10px 16px;
   border:1px solid #bbb;
@@ -543,7 +550,7 @@ BOOKING FORM
 }
 
 .newsletter-form button{
-  font-family:"Adobe Garamond Pro Italic", serif;
+  font-family: "Inconsolata", monospace;
   font-size:1.3rem;
   padding:10px 16px;
   border:1px solid #222;
@@ -670,7 +677,7 @@ BOOKING FORM
   a:hover,
   a:active {
     color: #333 !important;
-    font-weight: 400 !important;
+    font-weight: 200 !important;
     text-shadow: none !important;
     -webkit-text-fill-color: #333 !important;
   }
@@ -680,7 +687,6 @@ BOOKING FORM
   }
 }
 
-
 /* ===============================
 FORCE BUTTON STYLE OVER TUFTE
 =============================== */
@@ -689,7 +695,7 @@ a.minimal-button,
 a.minimal-button:link,
 a.minimal-button:visited {
 
-  font-family: "Adobe Garamond Pro Italic", serif;
+  font-family: "Inconsolata", monospace;
   font-size: 1.45rem;   /* BIGGER BUTTON */
 
   padding: 12px 22px;
