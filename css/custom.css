@@ -162,7 +162,7 @@ b {
 .album-block {
   display: flex;
   align-items: flex-start;
-  gap: 2.5rem;
+  gap: 2rem;
   margin-top: 3rem;
 }
 
@@ -180,7 +180,7 @@ b {
 
 .album-title {
  margin-top: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .album-info iframe {
   width: 100%;
@@ -190,7 +190,7 @@ b {
 .album-block h1,
 .album-block h2 {
   margin-top: 0;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
 }
 
 .center-image-wrapper {
