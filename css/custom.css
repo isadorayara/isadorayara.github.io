@@ -110,7 +110,7 @@ h1 {
 
 a {
   font-family: "Inconsolata", monospace;
-  font-weight: 200 !important;
+  font-weight: 100 !important;
   font-style: normal;
   text-decoration-thickness: from-font;
 }
@@ -122,7 +122,7 @@ a {
 .site-nav a,
 .center-links a {
   font-family: "Roboto Mono", monospace;
-  font-weight: 100 !important;
+  font-weight: 80 !important;
   letter-spacing: 0em;
   font-style: normal !important;
   text-shadow: none !important;
@@ -134,12 +134,12 @@ a {
 strong,
 b {
   font-family: "Inconsolata", monospace;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .home-intro {
 
-  max-width: 760px;          
+  max-width: 600px;          
   margin-left: auto;         
   margin-right: 14vw;         
 
@@ -151,10 +151,10 @@ b {
 
 .home-intro p {
   font-family: "Inconsolata", monospace;
-  font-weight: 100;
+  font-weight: 80;
   font-style: normal;
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1;
   margin: 0;
 }
 /* image home */
@@ -263,7 +263,7 @@ nav a:hover {
     font-family: "Roboto Mono", monospace;
     font-weight: 200;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: black;
     grid-column: 1;
@@ -271,7 +271,7 @@ nav a:hover {
 
 .site-title a {
     font-family: "Roboto Mono", monospace;
-    font-weight: 200 !important;
+    font-weight: 100 !important;
     font-style: normal !important;
     text-decoration: none !important;
     background: none !important;
@@ -383,7 +383,7 @@ nav a:hover {
 .site-footer {
     text-align: left;
     padding: 3rem 3rem 2rem;
-    font-size: 0.85rem;
+    font-size: 0.50rem;
     color: #333;
 }
 
@@ -580,7 +580,7 @@ BOOKING FORM
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 550px) {
 
     .home-intro {
     margin-right: auto;
@@ -677,7 +677,7 @@ BOOKING FORM
   a:hover,
   a:active {
     color: #333 !important;
-    font-weight: 200 !important;
+    font-weight: 80 !important;
     text-shadow: none !important;
     -webkit-text-fill-color: #333 !important;
   }
@@ -712,7 +712,7 @@ a.minimal-button:visited {
   display: inline-block;
   cursor: pointer;
 
-  font-weight: 400 !important;
+  font-weight: 100 !important;
 }
 
 /* kill tufte underline */
