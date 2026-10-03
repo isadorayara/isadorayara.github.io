@@ -103,7 +103,7 @@ b {
 }
 
 .album-image img {
-  max-width: 200px;
+  max-width: 170px;
   opacity: 0.95;
   height: auto;
   display: block;
@@ -477,7 +477,7 @@ BOOKING FORM
   }
 
   .album-info {
-    max-width: 100%;
+    max-width: 50%;
   }
 
 }
@@ -514,8 +514,8 @@ BOOKING FORM
     }
 
     .album-image img {
-        width: 60%;
-        max-width: 600%;
+        width: 30%;
+        max-width: 400%;
     }
 
     .album-info iframe {
