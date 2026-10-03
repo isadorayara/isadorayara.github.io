@@ -20,7 +20,7 @@ html, body {
 body {
   font-family: "Inconsolata", monospace;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.7;
 }
 
@@ -58,7 +58,7 @@ a {
 .site-nav a,
 .center-links a {
   font-family: "Roboto Mono", monospace;
-  font-weight: 80 !important;
+  font-weight: 100 !important;
   letter-spacing: 0em;
   font-style: normal !important;
   text-shadow: none !important;
@@ -256,7 +256,7 @@ nav a:hover {
     font-family: "Roboto Mono", monospace;
     font-weight: 100 !important;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     color: #333;
 }
